@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(114, 87, 69);
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    color: rgb(39, 28, 21);
+    text-align: center;
+    margin-top: 3%;
+}
+form {
+    background-color: rgb(66, 49, 39);
+    color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    max-width: 500px;
+    margin: 50px auto; 
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="time"],
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    margin-bottom: 15px;
+}
+
+form input[type="submit"],
+form button {
+    background-color: rgb(94, 73, 60);
+    color: #fff; 
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color:rgb(114, 87, 69);}

@@ -1,0 +1,258 @@
+/*-----------------------------------User dashboard css starts -------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(114, 87, 69);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container .profile {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container .profile h2 {
+    margin: 0;
+    font-size: 48px;
+    font-style: italic;
+    color: rgb(217, 208, 208);
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.dashboard-container {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    background-color: rgb(57, 42, 31);
+    border: 5px solid #ddd;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    border-radius: 8px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+/*-----------------------------------user dashboard css ends -------------------------------------------*/
+
+/*-----------------------------------add food dashboard css starts -------------------------------------------*/
+
+
+body .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(217, 208, 208);
+    font-size: xx-large;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.container input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.container table, th, td {
+    border: 1px solid #ddd;
+}
+
+.container th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.container th {
+    background-color: rgb(78, 53, 34);
+    color: white;
+}
+
+.container tbody button {
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+
+.container tbody button:hover {
+    background-color: #4cae4c;
+}
+
+.container tbody td a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container tbody td a:hover {
+    text-decoration: underline;
+}
+.container form button{
+    color: white;
+    background-color: rgb(57, 42, 31);
+}
+.container form button:hover{
+    background-color: rgb(78, 53, 34);
+}
+
+tbody tr td a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff0000; 
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr td a:hover {
+    background-color: #cc0000; 
+}
+
+/*-----------------------------------add food dashboard css ends -------------------------------------------*/
+
+/*-----------------------------------manage addmin/user dashboard css starts -------------------------------------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+button:active {
+    background-color: #398439;
+}
+
+td{
+    color: white;
+}
+.container h3{
+    color:rgb(217, 208, 208);
+    text-align: center;
+}
+/*-----------------------------------manage addmin dashboard css ends -------------------------------------------*/
+
+/*-----------------------------------parking availability dashboard css starts ------------------------------------*/
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+/*-----------------------------------parking availability dashboard css ends ---------------------------------------*/
+
+
+/* Back Button Styling */
+.back-button {
+    display: inline-block;
+    background-color:  rgb(57, 42, 31);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color:  rgb(101, 72, 51);
+}
+
+.back-button:active {
+    background-color: rgb(89, 63, 44);
+}
+

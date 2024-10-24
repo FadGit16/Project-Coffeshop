@@ -1,0 +1,88 @@
+body{
+    background-image: url('Pics/img1.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;    color: aliceblue;
+    display: inline-block;
+    padding: 0px 500px;;
+    font-size: larger;
+}
+
+.navbar{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(114, 87, 69);
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    opacity: 80%;
+    height: 55px;
+}
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+    transition: .3s;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+    line-height: 50px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 17px;
+}
+input[type=text]{
+    padding: 8px;
+    font-size: medium;
+    border-radius: 10px;
+}
+.pharagrapgh{
+    text-align: right;
+    padding: 20px;
+    max-width: 350px;
+    font-size: x-large;
+    color: white;
+    font-weight: 500;
+    font-style: normal;  
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-33%); 
+    animation: fadeIn 5s ease-in-out;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+

@@ -1,0 +1,82 @@
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: rgb(114, 87, 69);
+    }
+
+    .container .content{
+        text-align: center;
+        
+    }
+
+    .form_container {
+        width: 400px;
+        padding: 20px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        text-align: center;
+    }
+    .form_container form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form_container  form h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        color: rgb(114, 87, 69);
+    }
+    .form_container form input,
+    .form_container form select{
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 17px;
+        margin: 8px 0;
+        background: rgb(220, 213, 213);
+        border-radius: 5px;
+    }
+    .form_container form option{
+        background: white;
+    }
+    .form_button{
+        background: rgb(105, 66, 33);
+        color: rgb(105, 66, 33);
+        font-size: 20px;
+        cursor: pointer
+    }
+    .form_button:hover{
+        background: rgb(128, 82, 45);
+        color: white;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 15px;
+        color: rgb(65, 61, 61);
+    }
+    a{
+        color: rgb(105, 66, 33);
+    }
+    .error-msg{
+        margin: 10px;
+        display: block;
+        background: rgb(105, 66, 33);
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
